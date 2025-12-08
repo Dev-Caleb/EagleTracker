@@ -2,8 +2,8 @@ import { Activity } from 'lucide-react';
 
 export default function Navigation() {
   return (
-    <nav className="sticky top-0 z-50 backdrop-blur-xl bg-white/40 border-b border-slate-200/50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <nav className="sticky top-0 z-50 backdrop-blur-xl py-3 px-6">
+      <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between bg-white/40 border border-slate-200/50 rounded-xl">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-slate-600 flex items-center justify-center">
             <Activity className="w-6 h-6 text-white" strokeWidth={2.5} />

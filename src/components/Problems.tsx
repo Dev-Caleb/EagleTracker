@@ -1,7 +1,7 @@
 export default function Problems() {
   return (
-    <section className="py-24 px-6">
-      <div className="max-w-6xl mx-auto bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 rounded-2xl p-12">
+    <section className="py-12 px-6 border-t border-slate-200/30">
+      <div className="max-w-6xl mx-auto bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 rounded-2xl p-8">
         <div className="mb-16">
           <h2 className="text-4xl font-bold text-white mb-3">We Solve Real Problems</h2>
           <p className="text-lg text-blue-100">Targeted features designed for fast savings and safer assets.</p>

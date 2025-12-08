@@ -2,7 +2,7 @@ import { MessageCircle } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <section id="contact" className="py-24 px-6">
+    <section id="contact" className="py-24 px-6 border-t border-slate-200/30">
       <div className="max-w-6xl mx-auto bg-gradient-to-r from-blue-600 via-slate-600 to-blue-700 rounded-2xl p-12">
         <div className="text-center space-y-8">
           <div>

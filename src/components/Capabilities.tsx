@@ -35,7 +35,7 @@ const capabilities = [
 
 export default function Capabilities() {
   return (
-    <section className="py-24 px-6">
+    <section className="py-24 px-6 border-t border-slate-200/30">
       <div className="max-w-6xl mx-auto">
         <div className="mb-16">
           <h2 className="text-4xl font-bold text-slate-900 mb-3">Key Capabilities</h2>
