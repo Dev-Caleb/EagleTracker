@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eagle Track - Fleet Tracking & Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 backdrop-blur-xl bg-white/40 border-b border-slate-200/50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-600 to-slate-600 flex items-center justify-center">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2 1m2-1l-2-1m2 1v2.5"></path>
+                    </svg>
+                </div>
+                <span class="text-xl font-bold text-slate-900">Eagle Track</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#" class="text-slate-600 hover:text-slate-900 transition font-medium text-sm">Home</a>
+                <a href="#" class="text-slate-600 hover:text-slate-900 transition font-medium text-sm">Services</a>
+                <a href="#" class="text-slate-600 hover:text-slate-900 transition font-medium text-sm">Pricing</a>
+                <a href="#contact" class="text-slate-600 hover:text-slate-900 transition font-medium text-sm">Contact</a>
+            </div>
+            <div class="flex items-center gap-3">
+                <button class="px-4 py-2 text-slate-700 hover:text-slate-900 font-medium text-sm transition">Login</button>
+                <button class="px-6 py-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg font-semibold text-sm hover:shadow-lg hover:shadow-blue-500/30 transition-all">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-slate-100">
+        <section class="relative py-20 px-6 overflow-hidden">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="space-y-8">
+                        <div>
+                            <h1 class="text-5xl lg:text-6xl font-bold text-slate-900 leading-tight mb-4">Track Smarter. Protect Faster.</h1>
+                            <p class="text-xl text-slate-600 leading-relaxed">Real-time vehicle intelligence, anti-tamper alerts, and actionable fleet analytics — built for logistics teams and small operators.</p>
+                        </div>
+                        <div class="flex flex-wrap gap-4">
+                            <button class="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all">Get Started</button>
+                            <button class="px-8 py-3 bg-white/60 backdrop-blur border border-slate-300 text-slate-900 rounded-lg font-semibold hover:bg-white/80 transition-all">Watch Demo</button>
+                        </div>
+                    </div>
+                    <div class="relative h-96 rounded-2xl overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-400 via-slate-300 to-blue-500 opacity-20"></div>
+                        <div class="absolute inset-0 backdrop-blur-3xl"></div>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center space-y-4">
+                                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-slate-500 mx-auto flex items-center justify-center">
+                                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-slate-700 font-semibold">Fleet Analytics</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capabilities -->
+        <section class="py-24 px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-3">Key Capabilities</h2>
+                    <p class="text-lg text-slate-600">Everything your fleet needs — from live tracking to remote immobilization.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="group p-6 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-slate-500 p-2.5 mb-4 group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all">
+                            <svg class="w-full h-full text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Real-time Tracking</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Minute-by-minute location, live vehicle markers and route replay.</p>
+                    </div>
+                    <div class="group p-6 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-slate-500 p-2.5 mb-4 group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all">
+                            <svg class="w-full h-full text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m7.5-1.5a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Anti-Tamper Alert</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Instant notifications on disconnection, tamper, or unusual behaviour.</p>
+                    </div>
+                    <div class="group p-6 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-slate-500 p-2.5 mb-4 group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all">
+                            <svg class="w-full h-full text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7H7v10h10V9m0-2h6v6"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Fleet Analytics</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Idle time, route efficiency, and performance snapshots.</p>
+                    </div>
+                    <div class="group p-6 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-slate-500 p-2.5 mb-4 group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all">
+                            <svg class="w-full h-full text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">History Playback</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Replay trips, audit drivers and export route history up to 90 days.</p>
+                    </div>
+                    <div class="group p-6 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-slate-500 p-2.5 mb-4 group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all">
+                            <svg class="w-full h-full text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Remote Cut Power</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Secure remote immobilization to assist fast recovery.</p>
+                    </div>
+                    <div class="group p-6 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-500 to-slate-500 p-2.5 mb-4 group-hover:shadow-lg group-hover:shadow-blue-500/30 transition-all">
+                            <svg class="w-full h-full text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.2"><path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20H19a2 2 0 002-2v-2a2 2 0 00-2-2h-2.5a2.5 2.5 0 01-2.5-2.5V9.5a2.5 2.5 0 00-5 0V12a2 2 0 11-4 0v-1a2 2 0 00-2-2H3a2 2 0 00-2 2v2a2 2 0 002 2h3.064"></path></svg>
+                        </div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-2">Works Everywhere</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Reliable connectivity across GSM networks and satellite-ready integrations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Problems -->
+        <section class="py-24 px-6 bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900">
+            <div class="max-w-6xl mx-auto">
+                <div class="mb-16">
+                    <h2 class="text-4xl font-bold text-white mb-3">We Solve Real Problems</h2>
+                    <p class="text-lg text-blue-100">Targeted features designed for fast savings and safer assets.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 mb-12">
+                    <div class="p-8 rounded-xl bg-white/10 backdrop-blur-lg border border-white/20 hover:border-blue-400/40 transition-all">
+                        <h3 class="text-xl font-bold text-white mb-2">Vehicle Theft Risk</h3>
+                        <p class="text-blue-100 text-sm leading-relaxed">Real-time alerts and recovery workflows to speed response.</p>
+                    </div>
+                    <div class="p-8 rounded-xl bg-white/10 backdrop-blur-lg border border-white/20 hover:border-blue-400/40 transition-all">
+                        <h3 class="text-xl font-bold text-white mb-2">Poor Route Visibility</h3>
+                        <p class="text-blue-100 text-sm leading-relaxed">90-day route history and replay to audit driver behaviour.</p>
+                    </div>
+                    <div class="p-8 rounded-xl bg-white/10 backdrop-blur-lg border border-white/20 hover:border-blue-400/40 transition-all">
+                        <h3 class="text-xl font-bold text-white mb-2">Delayed Recovery</h3>
+                        <p class="text-blue-100 text-sm leading-relaxed">Automated immobilization commands and live alerting to recovery teams.</p>
+                    </div>
+                </div>
+                <div class="mb-8">
+                    <div class="flex flex-wrap gap-3">
+                        <span class="px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-blue-100 text-sm font-medium">GPS</span>
+                        <span class="px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-blue-100 text-sm font-medium">GSM</span>
+                        <span class="px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-blue-100 text-sm font-medium">IoT</span>
+                        <span class="px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-blue-100 text-sm font-medium">Cloud Backup</span>
+                        <span class="px-4 py-2 rounded-lg bg-white/10 border border-white/20 text-blue-100 text-sm font-medium">AES Encryption</span>
+                    </div>
+                </div>
+                <div class="p-8 rounded-xl bg-gradient-to-r from-blue-500/20 to-slate-500/20 border border-blue-400/30 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+                    <div>
+                        <p class="text-white font-semibold">Founder's Phase — Get Priority Support & Lower Pricing for Life</p>
+                    </div>
+                    <button class="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition-all whitespace-nowrap">Join Early Access</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="py-24 px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-3">Simple, Transparent Pricing</h2>
+                    <p class="text-lg text-slate-600">Choose the plan that fits your fleet size and needs.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-8 bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 hover:shadow-lg hover:shadow-blue-500/10 rounded-2xl transition-all duration-300">
+                        <h3 class="text-2xl font-bold mb-2 text-slate-900">Starter</h3>
+                        <p class="text-sm mb-6 text-slate-600">Tracking & basic alerts</p>
+                        <button class="w-full px-6 py-3 rounded-lg font-semibold mb-8 transition-all bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:shadow-lg hover:shadow-blue-500/30">Contact Sales</button>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-slate-700">Real-time tracking</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-slate-700">Basic alerts</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-slate-700">30-day history</span></li>
+                        </ul>
+                    </div>
+                    <div class="relative rounded-2xl transition-all duration-300 p-8 bg-gradient-to-br from-blue-500 to-slate-600 border border-blue-400/40 shadow-xl shadow-blue-500/20 scale-105">
+                        <h3 class="text-2xl font-bold mb-2 text-white">Business</h3>
+                        <p class="text-sm mb-6 text-blue-100">Analytics, geofencing & alerts</p>
+                        <button class="w-full px-6 py-3 rounded-lg font-semibold mb-8 transition-all bg-white text-blue-600 hover:shadow-lg">Get Business</button>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-blue-50">All Starter features</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-blue-50">Fleet analytics</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-blue-50">Geofencing</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-white" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-blue-50">60-day history</span></li>
+                        </ul>
+                    </div>
+                    <div class="p-8 bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 hover:shadow-lg hover:shadow-blue-500/10 rounded-2xl transition-all duration-300">
+                        <h3 class="text-2xl font-bold mb-2 text-slate-900">Fleet Pro</h3>
+                        <p class="text-sm mb-6 text-slate-600">Full telematics suite & SLA</p>
+                        <button class="w-full px-6 py-3 rounded-lg font-semibold mb-8 transition-all bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:shadow-lg hover:shadow-blue-500/30">Contact Sales</button>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-slate-700">All Business features</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-slate-700">Remote immobilization</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-slate-700">90-day history</span></li>
+                            <li class="flex items-start gap-3"><svg class="w-5 h-5 mt-0.5 flex-shrink-0 text-blue-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg><span class="text-sm text-slate-700">Priority support</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-24 px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="mb-16">
+                    <h2 class="text-4xl font-bold text-slate-900 mb-3">What Users Say</h2>
+                    <p class="text-lg text-slate-600">Trusted by fleet operators and logistics teams.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="p-8 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="flex gap-1 mb-4">
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic text-sm leading-relaxed">"Great product — early feedback here."</p>
+                        <div>
+                            <p class="font-semibold text-slate-900 text-sm">Sarah Mitchell</p>
+                            <p class="text-slate-600 text-xs">Fleet Manager</p>
+                        </div>
+                    </div>
+                    <div class="p-8 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="flex gap-1 mb-4">
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic text-sm leading-relaxed">"Helped reduce downtime for our fleet by 40%."</p>
+                        <div>
+                            <p class="font-semibold text-slate-900 text-sm">James Chen</p>
+                            <p class="text-slate-600 text-xs">Logistics Director</p>
+                        </div>
+                    </div>
+                    <div class="p-8 rounded-xl bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10">
+                        <div class="flex gap-1 mb-4">
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4 fill-blue-500 text-blue-500" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <p class="text-slate-700 mb-6 italic text-sm leading-relaxed">"Clear UI and fast alerts saved us during an incident."</p>
+                        <div>
+                            <p class="font-semibold text-slate-900 text-sm">Rachel Torres</p>
+                            <p class="text-slate-600 text-xs">Operations Lead</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section id="contact" class="py-24 px-6 bg-gradient-to-r from-blue-600 via-slate-600 to-blue-700">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center space-y-8">
+                    <div>
+                        <h2 class="text-4xl font-bold text-white mb-4">Ready to Protect Your Fleet?</h2>
+                        <p class="text-lg text-blue-100">Book a demo and we'll show you how to cut losses and improve efficiency.</p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <button class="px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:shadow-lg transition-all">Request Demo</button>
+                        <button class="px-8 py-4 bg-white/20 backdrop-blur border border-white/30 text-white rounded-lg font-semibold hover:bg-white/30 transition-all flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                            WhatsApp
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-slate-200/50 bg-white/30 backdrop-blur-lg">
+            <div class="max-w-6xl mx-auto px-6 py-12 text-center">
+                <p class="text-slate-600 text-sm">© 2025 Eagle Track — Smart Mobility Intelligence</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
