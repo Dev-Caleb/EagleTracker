@@ -42,7 +42,7 @@ export default function Capabilities() {
           <p className="text-lg text-slate-600">Everything your fleet needs — from live tracking to remote immobilization.</p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
           {capabilities.map((cap, idx) => {
             const Icon = cap.icon;
             return (

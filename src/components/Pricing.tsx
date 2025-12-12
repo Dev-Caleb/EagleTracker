@@ -33,25 +33,25 @@ export default function Pricing() {
           <p className="text-lg text-slate-600">Choose the plan that fits your fleet size and needs.</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-3 gap-4">
           {plans.map((plan, idx) => (
             <div
               key={idx}
-              className={`relative rounded-2xl transition-all duration-300 ${
+              className={`relative rounded-xl transition-all duration-300 ${
                 plan.highlight
-                  ? 'p-8 bg-gradient-to-br from-blue-500 to-slate-600 border border-blue-400/40 shadow-xl shadow-blue-500/20 scale-105'
-                  : 'p-8 bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 hover:shadow-lg hover:shadow-blue-500/10'
+                  ? 'p-5 bg-gradient-to-br from-blue-500 to-slate-600 border border-blue-400/40 shadow-xl shadow-blue-500/20 scale-100'
+                  : 'p-5 bg-white/50 backdrop-blur-lg border border-slate-200/60 hover:border-blue-300/60 hover:bg-white/70 hover:shadow-lg hover:shadow-blue-500/10'
               }`}
             >
-              <h3 className={`text-2xl font-bold mb-2 ${plan.highlight ? 'text-white' : 'text-slate-900'}`}>
+              <h3 className={`text-lg font-bold mb-1 ${plan.highlight ? 'text-white' : 'text-slate-900'}`}>
                 {plan.name}
               </h3>
-              <p className={`text-sm mb-6 ${plan.highlight ? 'text-blue-100' : 'text-slate-600'}`}>
+              <p className={`text-xs mb-4 ${plan.highlight ? 'text-blue-100' : 'text-slate-600'}`}>
                 {plan.description}
               </p>
 
               <button
-                className={`w-full px-6 py-3 rounded-lg font-semibold mb-8 transition-all ${
+                className={`w-full px-4 py-2 rounded-lg font-semibold mb-4 text-sm transition-all ${
                   plan.highlight
                     ? 'bg-white text-blue-600 hover:shadow-lg'
                     : 'bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:shadow-lg hover:shadow-blue-500/30'
@@ -60,11 +60,11 @@ export default function Pricing() {
                 {plan.cta}
               </button>
 
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 {plan.features.map((feature, fidx) => (
-                  <li key={fidx} className="flex items-start gap-3">
-                    <Check className={`w-5 h-5 mt-0.5 flex-shrink-0 ${plan.highlight ? 'text-white' : 'text-blue-600'}`} strokeWidth={3} />
-                    <span className={`text-sm ${plan.highlight ? 'text-blue-50' : 'text-slate-700'}`}>{feature}</span>
+                  <li key={fidx} className="flex items-start gap-2">
+                    <Check className={`w-4 h-4 mt-0.5 flex-shrink-0 ${plan.highlight ? 'text-white' : 'text-blue-600'}`} strokeWidth={3} />
+                    <span className={`text-xs ${plan.highlight ? 'text-blue-50' : 'text-slate-700'}`}>{feature}</span>
                   </li>
                 ))}
               </ul>
