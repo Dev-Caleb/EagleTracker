@@ -53,16 +53,23 @@
                             <button class="px-8 py-3 bg-white/60 backdrop-blur border border-slate-300 text-slate-900 rounded-lg font-semibold hover:bg-white/80 transition-all">Watch Demo</button>
                         </div>
                     </div>
-                    <div class="relative h-96 rounded-2xl overflow-hidden">
-                        <div class="absolute inset-0 bg-gradient-to-br from-blue-400 via-slate-300 to-blue-500 opacity-20"></div>
-                        <div class="absolute inset-0 backdrop-blur-3xl"></div>
-                        <div class="absolute inset-0 flex items-center justify-center">
-                            <div class="text-center space-y-4">
-                                <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-slate-500 mx-auto flex items-center justify-center">
-                                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                    </svg>
-                                </div>
+                   <div class="relative h-96 rounded-2xl overflow-hidden">
+    <!-- Background layers -->
+    <div class="absolute inset-0 bg-gradient-to-br from-blue-400 via-slate-300 to-blue-500 opacity-20"></div>
+    <div class="absolute inset-0 backdrop-blur-3xl"></div>
+
+    <!-- Content -->
+    <div class="absolute inset-0 flex items-center justify-center p-4">
+        <video 
+            src="./IMG_8140.MP4"
+            autoplay
+            muted
+            playsinline
+            class="w-full h-full object-cover rounded-2xl"
+        ></video>
+    </div>
+</div>
+
                                 <p class="text-slate-700 font-semibold">Fleet Analytics</p>
                             </div>
                         </div>
